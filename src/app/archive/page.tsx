@@ -23,7 +23,7 @@ const Archive = () => {
               clip-rule="evenodd"
             ></path>
           </svg>
-          TruongDucHungSon
+          HungSon
         </Link>
       </h2>
       <AllProjects />

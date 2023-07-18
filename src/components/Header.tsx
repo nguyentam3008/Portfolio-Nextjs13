@@ -6,15 +6,15 @@ export interface headerProps {}
 
 const Header: React.FC = (props: headerProps) => {
   return (
-    <div className="relative flex flex-col w-1/2 mt-20 lg:flex lg:mt-0 lg:sticky lg:top-0 lg:max-h-screen lg:flex-col lg:justify-between lg:py-24 ">
-      <div>
+    <div className="relative flex flex-col w-1/2 gap-12 mt-20 max-h-36 lg:flex lg:mt-0 lg:sticky lg:top-0 lg:max-h-screen lg:flex-col lg:justify-between lg:py-24">
+      <div className="w-full">
         <h1 className="text-4xl font-bold tracking-tight text-text-primary lg:text-5xl">
           <Link href="/#">TruongSonHungSon</Link>
         </h1>
         <p className="mt-3 text-lg font-medium tracking-tight text-text-primary md:text-xl">
           FrontEnd Developer
         </p>
-        <p className="max-w-xs mt-4 text-base font-medium leading-normal text-text-secound ">
+        <p className="mt-4 text-base font-medium leading-normal w-96 lg:max-w-xs text-text-secound ">
           I build accessible, inclusive products and digital experiences for the
           web.
         </p>

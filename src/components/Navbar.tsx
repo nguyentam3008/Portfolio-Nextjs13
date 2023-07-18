@@ -4,7 +4,7 @@ import { displayNav } from "../constants/dataNav";
 
 const Navbar: React.FC = () => {
   return (
-    <ul className="flex flex-col gap-5">
+    <ul className="flex-col hidden gap-5 disabled: lg:flex">
       {displayNav.map((item) => (
         <li
           className="flex items-center gap-3 cursor-pointer group"

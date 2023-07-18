@@ -4,8 +4,10 @@ import { data } from "@/constants/dataProjects";
 
 const Experience: React.FunctionComponent = () => {
   return (
-    <section id="experience" className="flex flex-col mt-32">
-      <h2 className="lg:hidden">About</h2>
+    <section id="experience" className="flex flex-col mt-20 lg:mt-32">
+      <h2 className="mb-5 text-sm font-bold tracking-widest uppercase lg:hidden text-text-primary lg:sr-only">
+        Experience
+      </h2>
       <div className="grid grid-cols-1 gap-12 ">
         {data.map((item) => (
           <ProjectSingle
@@ -20,7 +22,7 @@ const Experience: React.FunctionComponent = () => {
         ))}
       </div>
       <div className="flex items-center mt-12 group">
-        <h4 className="pb-px font-medium transition border-b cursor-pointer border-transparent text-text-primary group-hover:border-gr-5a motion-reduce:transition-none">
+        <h4 className="pb-px font-medium transition border-b border-transparent cursor-pointer text-text-primary group-hover:border-gr-5a motion-reduce:transition-none">
           View Full Résumé
         </h4>
         <div>

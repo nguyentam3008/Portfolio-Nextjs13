@@ -27,10 +27,10 @@ const ProjectSingle: React.FC<IProjectSignProps> = ({
     <div>
       <Link
         href={path}
-        key={`experience-product ${id}`}
-        className="flex items-start gap-3 p-4 transition-all duration-200 rounded-md cursor-pointer group backdrop-filter hover:bg-white/5 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]"
+        key={`experience-product-${id}`}
+        className="flex flex-col-reverse md:flex-row justify-start items-start gap-3 lg:p-4 transition-all duration-200 rounded-md cursor-pointer group backdrop-filter hover:bg-white/5 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]"
       >
-        <div className="flex flex-col w-[30%]">
+        <div className="flex flex-col w-full md:w-40 mt-2 md:mt-0 lg:w-[30%]">
           {year && mouth ? (
             <span className="z-10 flex items-center mt-1 mb-2 text-xs font-semibold tracking-wide uppercase lg:text-sm text-text-secound ">
               {mouth} - {year}
@@ -44,7 +44,7 @@ const ProjectSingle: React.FC<IProjectSignProps> = ({
               alt="Picture of the author"
               width={300}
               height={300}
-              className=" w-[190px] h-24 transition border-2 rounded  border-gray-800 group-hover:border-gray-500 sm:order-1 sm:col-span-2 sm:translate-y-1"
+              className=" w-[200px] h-24 transition border-2 rounded  border-gray-800 group-hover:border-gray-500 sm:order-1 sm:col-span-2 sm:translate-y-1"
             />
           )}
         </div>

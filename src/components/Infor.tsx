@@ -4,7 +4,10 @@ interface InforProps {}
 
 const Infor: React.FC<InforProps> = () => {
   return (
-    <section id="about" className="flex flex-col gap-5 p-4">
+    <section id="about" className="flex flex-col gap-5 lg:p-4">
+      <h2 className="mb-5 text-sm font-bold tracking-widest uppercase lg:hidden text-text-primary lg:sr-only">
+        About
+      </h2>
       <p className="text-base font-medium tracking-tight text-text-secound ">
         My name is Son truong. I started learning how to code in January 2022
         and spent most of my day experimenting with HTML, CSS, TailwindCss and

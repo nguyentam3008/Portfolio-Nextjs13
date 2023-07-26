@@ -32,7 +32,7 @@ const ProjectSingle: React.FC<IProjectSignProps> = ({
       >
         <div className="flex flex-col w-full md:w-40 mt-2 md:mt-0 lg:w-[30%]">
           {year && mouth ? (
-            <span className="z-10 flex items-center mt-1 mb-2 text-xs font-semibold tracking-wide uppercase lg:text-sm text-text-secound ">
+            <span className="z-10 flex items-center mt-1 mb-2 text-xs font-semibold tracking-wide uppercase xl:text-sm text-text-secound ">
               {mouth} - {year}
             </span>
           ) : (
@@ -66,7 +66,7 @@ const ProjectSingle: React.FC<IProjectSignProps> = ({
                 ></path>
               </svg>
             </h3>
-            <p className="mt-3 text-sm font-medium lg:text-base">
+            <p className="mt-3 text-sm font-medium xl:text-base tracking-wide ">
               {descriptions}
             </p>
           </div>

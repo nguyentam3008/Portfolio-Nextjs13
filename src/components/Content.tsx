@@ -7,7 +7,7 @@ interface HeroProps {}
 
 const Content: React.FC<HeroProps> = () => {
   return (
-    <div className="py-0 lg:py-24 ">
+    <div className="py-0 lg:py-24 lg:pr-5 xl:pr-0">
       <Infor />
       <Experience />
       <Projects />

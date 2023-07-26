@@ -9,3 +9,19 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* styles/globals.css */
+.navbar li {
+  list-style: none;
+  margin: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a.active {
+  font-weight: bold;
+  color: blue;
+}
